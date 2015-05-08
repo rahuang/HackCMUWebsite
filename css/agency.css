@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #FF5451;
 }
 
 p {
@@ -35,14 +35,14 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #FF5451;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #FF3B38;
 }
 
 h1,
@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #FF5451;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #FF5451;
 }
 
 .btn-primary:hover,
@@ -82,9 +82,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
+    border-color: #B22927;
     color: #fff;
-    background-color: #fec503;
+    background-color: #FF3B38;
 }
 
 .btn-primary:active,
@@ -108,25 +108,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #FF5451;
+    background-color: #FF5451;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #FF5451;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #FF5451;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #FF5451;
 }
 
 .btn-xl:hover,
@@ -134,9 +134,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #B22927;
     color: #fff;
-    background-color: #fec503;
+    background-color: #FF3B38;
 }
 
 .btn-xl:active,
@@ -160,12 +160,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #FF5451;
+    background-color: #FF5451;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #FF5451;
     background-color: #fff;
 }
 
@@ -176,14 +176,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #FF5451;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #FF3B38;
 }
 
 .navbar-default .navbar-collapse {
@@ -191,8 +191,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #FF5451;
+    background-color: #FF5451;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -201,7 +201,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: #FF5451;
 }
 
 .navbar-default .nav li a {
@@ -215,19 +215,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #FF5451;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #FF5451;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #FF3B38;
 }
 
 @media(min-width:768px) {
@@ -265,7 +265,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.05)), color-stop(100%,rgba(255,255,255,0.2))), url(../img/background.jpg) no-repeat center center fixed;
+    /*background-image: url(../img/background.jpg);*/
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -446,7 +447,7 @@ section h3.section-subheading {
 
 .timeline>li {
     position: relative;
-    margin-bottom: 50px;
+    margin-bottom: 50px !important; 
     min-height: 50px;
 }
 
@@ -493,7 +494,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #FF5451;
 }
 
 .timeline>li .timeline-image h4 {
@@ -530,6 +531,11 @@ section h3.section-subheading {
     margin-top: 0;
     color: inherit;
 }
+
+.timeline .timeline-heading h3 {
+    color: #FF5451;
+}
+
 
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
@@ -651,6 +657,17 @@ aside.clients img {
     margin: 50px auto;
 }
 
+.clients img { 
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    -webkit-transition: 0.8s;
+}
+
+.clients img:hover { 
+    -webkit-filter: grayscale(0%); 
+    filter: grayscale(0%);
+}
+
 section#contact {
     background-color: #222;
     background-image: url(../img/map-image.png);
@@ -680,7 +697,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #FF5451;
     box-shadow: none;
 }
 
@@ -758,7 +775,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #FF5451;
 }
 
 .btn:focus,
@@ -846,12 +863,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #FF5451;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #FF5451;
 }
 
 img::selection {
@@ -863,5 +880,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #FF5451;
 }
