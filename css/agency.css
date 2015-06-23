@@ -10,7 +10,7 @@ body {
 }
 
 .text-muted {
-    color: #777;
+    color: #888;
 }
 
 .text-primary {
@@ -296,8 +296,14 @@ header .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
 }
+header .intro-text #logo {
+    height: 150px;
+}
+header .intro-text #sign-up {
+    margin-top: 20px;
+}
 
-@media(min-width:768px) {
+@media(min-width:573px) {
     header .intro-text {
         margin-top: -19%;
         padding-top: 300px;
@@ -320,6 +326,12 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
+    header .intro-text #logo {
+        height: 250px;
+    }
+    header .intro-text #sign-up {
+        margin-top: -20px;
+    }
 }
 
 section {
@@ -336,7 +348,7 @@ section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
     font-family: Oxygen, "Source Sans Pro";
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 400;
 }
@@ -386,7 +398,7 @@ section h3.section-subheading {
     height: 20px;
     margin-top: -12px;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
 }
 
@@ -415,7 +427,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: Oxygen, "Source Sans Pro";
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
 }
 
@@ -500,7 +512,7 @@ section h3.section-subheading {
 
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 14px;
 }
 
@@ -545,6 +557,7 @@ section h3.section-subheading {
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+    margin-top: -10px;
 }
 
 @media(min-width:768px) {
@@ -573,7 +586,7 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image h4 {
         margin-top: 16px;
-        font-size: 13px;
+        font-size: 15px;
         line-height: 18px;
     }
 
