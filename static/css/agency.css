@@ -10,7 +10,7 @@ body {
 }
 
 .text-muted {
-    color: #888;
+    color: #BBB;
 }
 
 .text-primary {
@@ -297,7 +297,7 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 header .intro-text #logo {
-    height: 150px;
+    height: 100px;
 }
 header .intro-text #sign-up {
     margin-top: 20px;
@@ -311,7 +311,7 @@ header .intro-text #sign-up {
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 50px;
         font-family: Oxygen, "Source Sans Pro";
         font-size: 40px;
         font-style: italic;
@@ -319,7 +319,7 @@ header .intro-text #sign-up {
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 0px;
         text-transform: uppercase;
         font-family: Oxygen, "Source Sans Pro";
         font-size: 75px;
@@ -328,6 +328,7 @@ header .intro-text #sign-up {
     }
     header .intro-text #logo {
         height: 250px;
+        width: 800px;
     }
     header .intro-text #sign-up {
         margin-top: -20px;
