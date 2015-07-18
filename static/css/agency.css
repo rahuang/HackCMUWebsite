@@ -234,6 +234,9 @@ fieldset[disabled] .btn-xl.active {
     background-color: #FF3B38;
 }
 
+
+
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -269,8 +272,8 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.05)), color-stop(100%,rgba(255,255,255,0.2))), url(../img/background.png) no-repeat center center fixed;
-    /*background-image: url(../img/background.jpg);*/
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.05)), color-stop(100%,rgba(255,255,255,0.2))), url(../img/background.png) no-repeat center center fixed;*/
+    background-image: url(../img/background.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -307,7 +310,8 @@ header .intro-text #sign-up {
     margin-top: 20px;
 }
 
-@media(min-width:573px) {
+@media(min-width:768px) {
+
     header .intro-text {
         margin-top: -19%;
         padding-top: 300px;
@@ -334,6 +338,10 @@ header .intro-text #sign-up {
         height: 250px;
         width: 800px;
     }
+}
+
+@media(min-width:573px) {
+    
     header .intro-text #sign-up {
         margin-top: -20px;
     }
