@@ -303,8 +303,16 @@ header .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
 }
+
 header .intro-text #logo {
-    height: 100px;
+    height: 90px;
+}   
+
+@media(min-width:480px) {
+
+    header .intro-text #logo {
+        height: 100px;
+    }
 }
 header .intro-text #sign-up {
     margin-top: 20px;
