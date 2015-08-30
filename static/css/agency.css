@@ -917,3 +917,12 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #FF5451;
 }
+
+.sponsor-img {
+    max-height: 200px;
+    /*vertical-align: middle;*/
+}
+
+.vcenter {
+    top: 50px;
+}
